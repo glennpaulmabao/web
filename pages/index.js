@@ -34,7 +34,7 @@ export default function Home() {
       <main>
         <section className=" bg-[#BDFF00] w-full min-h-screen md:px-[17%] px-[8%]">
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
-            <h1 className="font-extrabold"><a href="#">Glenn Paul Mabao</a></h1>
+            <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
               <li><a href="#">Resume</a></li>
             </ul>
