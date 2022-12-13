@@ -64,12 +64,12 @@ export default function Home() {
           <div className="md:flex md:my-10 my-5 md:justify-between">
             <div className="md:w-[50%] w-[100%] flex items-start md:gap-5 gap-2">
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
-                <Image src={design} className="md:h-[35.2px] h-[25px] w-auto"/>
-                <p className="text-[16px]">The Designer</p>
+                <Image src={design} className="md:h-[35.2px] h-[20px] w-auto"/>
+                <p className="text-[12px]">The Designer</p>
               </div>
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
-                <Image src={develop} className="md:h-[35.2px] h-[25px] w-auto"/>
-                <p className="text-[16px]">The Programmer</p>
+                <Image src={develop} className="md:h-[35.2px] h-[20px] w-auto"/>
+                <p className="text-[12px]">The Programmer</p>
               </div>
             </div>
             <div className="hidden md:w-[50%] md:flex items-center justify-end gap-3 text-5xl">
@@ -85,7 +85,7 @@ export default function Home() {
                 <Image src={talk2me} className="h-[85.9px] w-auto mx-2" />
               </div>
             </div>
-            <div className="bg-[#4E5732] md:h-[650px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[50px] z-[1] mt-[-130px] relative overflow-hidden">
+            <div className="bg-[#4E5732] md:h-[650px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
               <Image src={web5} layout="fill" objectFit="cover"/>
             </div>
           </div>
