@@ -48,7 +48,7 @@ export default function Home() {
               <Image src={darkmode} className="h-[80%] w-auto mx-5" />
               <a className="md:text-5xl text-3xl">Dark mode</a>
               </div>
-              <p className="leading-[22pt] my-10 md:my-0">
+              <p className="leading-[22pt] font-[300] my-10 md:my-0">
                   I completed my Information Technology with a Java
                   Programming degree in 2011. After college, I spent six years
                   honing my artistic skills as a graphic illustrator, branding expert,
@@ -64,12 +64,12 @@ export default function Home() {
           <div className="md:flex md:my-10 my-5 md:justify-between">
             <div className="md:w-[50%] w-[100%] flex items-start md:gap-5 gap-2">
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
-                <Image src={design} className="md:h-[35.2px] h-[20px] w-auto"/>
-                <p className="text-[12px]">The Designer</p>
+                <Image src={design} className="md:h-[30px] h-[20px] w-auto"/>
+                <p className="text-[16px]">The Designer</p>
               </div>
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
-                <Image src={develop} className="md:h-[35.2px] h-[20px] w-auto"/>
-                <p className="text-[12px]">The Programmer</p>
+                <Image src={develop} className="md:h-[30px] h-[20px] w-auto"/>
+                <p className="text-[16px]">The Programmer</p>
               </div>
             </div>
             <div className="hidden md:w-[50%] md:flex items-center justify-end gap-3 text-5xl">
@@ -92,7 +92,7 @@ export default function Home() {
         </section>
         <section className="bg-[#101010] md:h-[171.2px] md:px-[17%] px-[10%] py-10 flex items-center justify-start" >
           <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#95C900]">PORTFOLIO</h1>
-          <Image src={chimes} className="md:h-[92px] h-[55px] w-auto ml-10"/>
+          <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
         <section className="bg-[#ffffff] md:px-[17%] px-[10%] flex flex-col gap-10 pt-[100px] pb-[200px] lg:flex-row lg:flex-wrap">
           
