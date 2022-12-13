@@ -41,7 +41,7 @@ export default function Home() {
           </nav>
           <div className="md:flex items-start justify-between">
             <div className="md:w-[60%]">
-              <h1 className="md:text-[180px] text-[120px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
+              <h1 className="md:text-[180px] text-[90px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
             </div>
             <div className="md:w-[40%] w-[100%] flex flex-wrap ">
               <div className="md:flex items-center md:order-first order-last gap-5 bg-[#95C900] md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light cursor-pointer">
