@@ -57,7 +57,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center px-[10%] mx-auto items-center gap-5 bg-[#000] md:hidden visible w-[100%] h-[72px] rounded-full font-light cursor-pointer">
               <h1 className="text-2xl text-[#95C900]">Let's Talk</h1>
-              <Image src={talk2me} className="h-[60%] w-auto mx-5" />
+              <Image src={talk2me} className="h-[40%] w-auto mx-5" />
               </div>
             </div>
           </div>
