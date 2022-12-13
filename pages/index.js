@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <section className=" bg-[#BDFF00] min-h-screen md:px-[17%] px-[8%]">
+        <section className=" bg-[#BDFF00] w-full min-h-screen md:px-[17%] px-[8%]">
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
             <h1 className="font-extrabold"><a href="#">Glenn Paul Mabao</a></h1>
             <ul>
@@ -41,7 +41,7 @@ export default function Home() {
           </nav>
           <div className="md:flex items-start justify-between">
             <div className="md:w-[60%]">
-              <h1 className="md:text-[180px] text-[90px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
+              <h1 className="md:text-[180px] text-[80px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
             </div>
             <div className="md:w-[40%] w-[100%] flex flex-wrap ">
               <div className="md:flex items-center md:order-first order-last gap-5 bg-[#95C900] md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light cursor-pointer">
