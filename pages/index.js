@@ -53,10 +53,10 @@ export default function Home() {
                   and web designer. I've been a front-end programmer with some
                   backend expertise since 2018.
               </p>
-              <div className="flex justify-center px-[10%] mx-auto items-center gap-5 bg-[#000] md:hidden visible w-[100%] h-[72px] rounded-full font-light cursor-pointer">
+              <a className="flex justify-center px-[10%] mx-auto items-center gap-5 bg-[#000] md:hidden visible w-[100%] h-[72px] rounded-full font-light cursor-pointer" href="mailto:glennpaulmabao@yahoo.com.ph">
               <h1 className="text-2xl text-[#D4FF3F]">Let's Talk</h1>
               <Image src={talk2me} className="h-[40%] w-auto mx-5" />
-              </div>
+              </a>
             </div>
           </div>
           <div className="md:flex md:my-10 my-5 md:justify-between">
@@ -79,9 +79,9 @@ export default function Home() {
           </div>
           <div className="md:mt-[20px] mt-[150px] flex flex-wrap justify-end">
             <div className="hidden md:flex md:justify-end z-[2] pr-[80px]">
-              <div className="cursor-pointer h-[210.9px] w-[210.9px] items-center flex justify-center rounded-full bg-[#131A00]">
+              <a  href="mailto:glennpaulmabao@yahoo.com.ph" className="cursor-pointer h-[210.9px] w-[210.9px] items-center flex justify-center rounded-full bg-[#131A00]">
                 <Image src={talk2me} className="h-[85.9px] w-auto mx-2" />
-              </div>
+              </a>
             </div>
             <div className="bg-[#4E5732] md:h-[650px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
               <Image src={web5} layout="fill" objectFit="cover"/>
