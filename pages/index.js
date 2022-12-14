@@ -1,9 +1,7 @@
 import Head from 'next/head';
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillFacebook,
-}  from "react-icons/ai";
+import react from 'react';
+import ReactDOM from "react-dom"
+import Portfolio from './portfolio';
 import Image from "next/image";
 import darkmode from "../public/icons-Darkmode.svg";
 import linkedin from "../public/icons-in.svg";
@@ -95,114 +93,12 @@ export default function Home() {
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
         <section className="bg-[#ffffff] md:px-[17%] px-[10%] flex flex-col gap-10 pt-[100px] pb-[200px] lg:flex-row lg:flex-wrap">
-          
-          <div className="basis-1/3 flex-1 md:my-10 my-2">
-              <div>
-                <Image
-                  className="object-cover"
-                  width={"627.9px"}
-                  height={"560.3px"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </div>
-                <h1 className="text-[35px]  font-extrabold my-4">Nike Air Max</h1>
-              <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
-              </div>
-          </div>
-
-          <div className="basis-1/3 flex-1 md:my-10 my-2">
-              <div>
-                <Image
-                  className="object-cover"
-                  width={"627.9px"}
-                  height={"560.3px"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </div>
-              <h1 className="text-[35px]  font-extrabold my-4">Nike Air Max</h1>
-              <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
-              </div>
-          </div>
-
-          <div className="basis-1/3 flex-1 md:my-10 my-2">
-              <div>
-                <Image
-                  className="object-cover"
-                  width={"627.9px"}
-                  height={"560.3px"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </div>
-              <h1 className="text-[35px]  font-extrabold my-4">Nike Air Max</h1>
-              <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
-              </div>
-          </div>
-
-          <div className="basis-1/3 flex-1 md:my-10 my-2">
-              <div>
-                <Image
-                  className="object-cover"
-                  width={"627.9px"}
-                  height={"560.3px"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </div>
-              <h1 className="text-[35px]  font-extrabold my-4">Nike Air Max</h1>
-              <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
-              </div>
-          </div>
-
-          <div className="basis-1/3 flex-1 md:my-10 my-2">
-              <div>
-                <Image
-                  className="object-cover"
-                  width={"627.9px"}
-                  height={"560.3px"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </div>
-              <h1 className="text-[35px]  font-extrabold my-4">Nike Air Max</h1>
-              <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
-              </div>
-          </div>
-
-          <div className="basis-1/3 flex-1 md:my-10 my-2">
-              <div>
-                <Image
-                  className="object-cover"
-                  width={"627.9px"}
-                  height={"560.3px"}
-                  layout="responsive"
-                  src={web1}
-                />
-              </div>
-              <h1 className="text-[35px]  font-extrabold my-4">Nike Air Max</h1>
-              <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
-              </div>
-          </div>
+          <Portfolio title="Nike" img={web1} />
+          <Portfolio title="Addidas" img={web2} />
+          <Portfolio title="Addidas" img={web3} />
+          <Portfolio title="Addidas" img={web4} />
+          <Portfolio title="Addidas" img={web5} />
+          <Portfolio title="Addidas" img={web6} />
         </section>
 
         <section className="bg-[#101010] md:h-[171.2px] md:px-[17%] px-[10%] py-5 flex items-center justify-start" >
