@@ -93,12 +93,12 @@ export default function Home() {
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
         <section className="bg-[#ffffff] md:px-[17%] px-[10%] flex flex-col gap-10 pt-[100px] pb-[200px] lg:flex-row lg:flex-wrap">
-          <Portfolio title="Nike" img={web1} hashtags="Webdesign" />
-          <Portfolio title="Addidas" img={web2} />
-          <Portfolio title="Addidas" img={web3} />
-          <Portfolio title="Addidas" img={web4} />
-          <Portfolio title="Addidas" img={web5} />
-          <Portfolio title="Addidas" img={web6} />
+          <Portfolio title="Nike" img={web1} tags1="Webdesign" tags1="Webdesign" tags2="Wordpress" tags3="ElementorPro" tags4="PHP"/>
+          <Portfolio title="Addidas" img={web2} tags1="Webdesign" tags1="Webdesign" tags2="Wordpress" tags3="DiviBuilder" tags4="PHP" />
+          <Portfolio title="Addidas" img={web3} tags1="Webdesign" tags1="Webdesign" tags2="Wordpress" tags3="Elementor" tags4="PHP" />
+          <Portfolio title="Addidas" img={web4} tags1="Webdesign" tags1="Webdesign" tags2="Bootstrap5" tags3="CSS" tags4="PHP"/>
+          <Portfolio title="Addidas" img={web5} tags1="Webdesign" tags1="Webdesign" tags2="ReactJS" tags3="NextJs" tags4="Javascript"/>
+          <Portfolio title="Addidas" img={web6} tags1="Webdesign" tags1="Webdesign" tags2="ReactJS" tags3="NextJS" tags4="Javascript"/>
         </section>
 
         <section className="bg-[#101010] md:h-[171.2px] md:px-[17%] px-[10%] py-5 flex items-center justify-start" >

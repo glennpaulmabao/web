@@ -19,16 +19,10 @@ function Portfolio(props){
         </div>
           <h1 className="text-[35px]  font-extrabold my-4">{props.title}</h1>
         <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-          <h4
-          className="border-[#cbcbcb]
-          text-[#cbcbcb] 
-          font-regular 
-          py-2
-          px-4  
-          border-2 
-          md:my-2 
-          rounded-full 
-          items-center">{props.hashtags}</h4>
+            <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-regular py-[4px] px-[12px] border-2 md:my-2 rounded-full items-center">{props.tags1}</h4>
+            <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-regular py-[4px] px-[12px] border-2 md:my-2 rounded-full items-center">{props.tags2}</h4>
+            <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-regular py-[4px] px-[12px] border-2 md:my-2 rounded-full items-center">{props.tags3}</h4>
+            <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-regular py-[4px] px-[12px] border-2 md:my-2 rounded-full items-center">{props.tags4}</h4>
         </div>
     </div>
     )
