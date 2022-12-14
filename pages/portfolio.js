@@ -19,12 +19,20 @@ function Portfolio(props){
         </div>
           <h1 className="text-[35px]  font-extrabold my-4">{props.title}</h1>
         <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-          <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Web design</h4>
-          <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Wordpress</h4>
-          <h4 className="border-[#cbcbcb] text-[#cbcbcb] font-semibold w-[140px] px-5 py-[8px] border-2 md:my-2 rounded-full items-center">Elementor Pro</h4>
+          <h4
+          className="border-[#cbcbcb]
+          text-[#cbcbcb] 
+          font-regular 
+          py-2
+          px-4  
+          border-2 
+          md:my-2 
+          rounded-full 
+          items-center">{props.hashtags}</h4>
         </div>
     </div>
     )
 }
+
 
 export default Portfolio;
