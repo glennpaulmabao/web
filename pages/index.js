@@ -3,7 +3,7 @@ import react from 'react';
 import ReactDOM from "react-dom"
 import Portfolio from './portfolio';
 import Image from "next/image";
-import darkmode from "../public/icons-Darkmode.svg";
+import darkmode from "../public/icons-Me.png";
 import linkedin from "../public/icons-in.svg";
 import instagram from "../public/icons-ig.svg";
 import twitter from "../public/icons-tw.svg";
@@ -18,7 +18,7 @@ import web3 from "../public/Projects/Websites/web3.png";
 import web4 from "../public/Projects/Websites/web4.png";
 import web5 from "../public/Projects/Websites/web5.png";
 import web6 from "../public/Projects/Websites/web6.png";
-
+import MeBG from "../public/Me_BG.png";
 
 export default function Home() {
   return (
@@ -42,9 +42,9 @@ export default function Home() {
               <h1 className="md:text-[180px] text-[80px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
             </div>
             <div className="md:w-[40%] w-[100%] flex flex-wrap ">
-              <div className="md:flex items-center md:order-first order-last gap-5 bg-[#95C900] md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light cursor-pointer">
-                <Image src={darkmode} className="h-[80%] w-auto mx-5" />
-                <a className="text-3xl md:text-5xl">Dark mode</a>
+              <div className="md:flex items-center md:order-first order-last bg-[url('../public/Me_BG.png')] gap-5 md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light">
+                <Image src={darkmode} className="h-[80%] w-auto mx-5 " />
+                
               </div>
               <p className="leading-[22pt] font-[300] my-10 md:my-0">
                   I completed my Information Technology with a Java
