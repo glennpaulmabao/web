@@ -83,7 +83,7 @@ export default function Home() {
                 <Image src={talk2me} className="h-[85.9px] w-auto mx-2" />
               </a>
             </div>
-            <div className="bg-[#4E5732] md:h-[750px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
+            <div className="bg-[#4E5732] md:h-[680px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
               <a href="https://www.apebeverages.com/" target="_blank" ><Image src={web5} layout="fill" objectFit="cover"/></a>
             </div>
           </div>
