@@ -34,17 +34,17 @@ export default function Home() {
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
             <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
-              <li><a href="#">Resume</a></li>
+              <li><a href="https://www.onlinejobs.ph/jobseekers/info/88429" target="_blank">Resume</a></li>
             </ul>
           </nav>
-          <div className="md:flex items-start justify-between">
+          <div className="items-start justify-between md:flex">
             <div className="md:w-[60%]">
               <h1 className="md:text-[180px] text-[80px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
             </div>
             <div className="md:w-[40%] w-[100%] flex flex-wrap ">
               <div className="md:flex items-center md:order-first order-last gap-5 bg-[#95C900] md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light cursor-pointer">
-              <Image src={darkmode} className="h-[80%] w-auto mx-5" />
-              <a className="md:text-5xl text-3xl">Dark mode</a>
+                <Image src={darkmode} className="h-[80%] w-auto mx-5" />
+                <a className="text-3xl md:text-5xl">Dark mode</a>
               </div>
               <p className="leading-[22pt] font-[300] my-10 md:my-0">
                   I completed my Information Technology with a Java
@@ -59,7 +59,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="md:flex md:my-10 my-5 md:justify-between">
+          <div className="my-5 md:flex md:my-10 md:justify-between">
             <div className="md:w-[50%] w-[100%] flex items-start md:gap-5 gap-2">
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={design} className="md:h-[30px] h-[20px] w-auto"/>
@@ -72,9 +72,9 @@ export default function Home() {
             </div>
             <div className="hidden md:w-[50%] md:flex items-center justify-end gap-3 text-5xl">
               <Image src={hrdot}/>
-              <Image src={twitter} className="cursor-pointer h-[37.1px] w-auto mx-2" />
-              <Image src={instagram} className="cursor-pointer h-[37.1px] w-auto mx-2" />
-              <Image src={linkedin} className="cursor-pointer h-[37.1px] w-auto mx-2" />
+              <a href="https://twitter.com/glennfalse"><Image src={twitter} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a href="https://www.instagram.com/glennfalse/"><Image src={instagram} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a href="https://www.linkedin.com/in/glennpaulmabao/"><Image src={linkedin} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
             </div>
           </div>
           <div className="md:mt-[20px] mt-[150px] flex flex-wrap justify-end">
@@ -84,7 +84,7 @@ export default function Home() {
               </a>
             </div>
             <div className="bg-[#4E5732] md:h-[650px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
-              <Image src={web5} layout="fill" objectFit="cover"/>
+              <a href="https://www.apebeverages.com/" target="_blank" ><Image src={web5} layout="fill" objectFit="cover"/></a>
             </div>
           </div>
         </section>
@@ -93,24 +93,25 @@ export default function Home() {
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
         <section className="bg-[#171717] md:h-[171.2px] md:px-[17%] px-[5%] py-10 justify-start">
-          <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3]">BEST PROJECTS</h1>
+          <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3] hover:text-[#D4FF3F]">BEST PROJECTS</h1>
           <p className="leading-[22pt] font-[300] my-10 md:my-5 text-[#898989] md:w-[60%] w-full">
           Everyone of us loves something different. So, explore the world through the lens of our visual capabilities and find what you love.
               </p>
               <div className="md:columns-3 columns-1 flex flex-wrap md:gap-[15px] gap-2 md:text-[12px] text-[14px] md:flex justify-start items-center">
-                <h4 className="border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">Web Design</h4>
-                <h4 className="border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">Web Development</h4>
-                <h4 className="border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">Wordpress</h4>
-                <h4 className="border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">ReactJS</h4>
+                <h4 className=" hover:border-[#D4FF3F] hover:text-[#D4FF3F] border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">Web Design</h4>
+                <h4 className=" hover:border-[#D4FF3F] hover:text-[#D4FF3F] border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">Web Development</h4>
+                <h4 className="  hover:border-[#D4FF3F] hover:text-[#D4FF3F] border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">Wordpress</h4>
+                <h4 className=" hover:border-[#D4FF3F] hover:text-[#D4FF3F] border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">ReactJS</h4>
             </div>
         </section>
         <section className="bg-[#171717] md:px-[17%] px-[5%] flex flex-col gap-10 md:py-[120px] py-[40px] lg:flex-row lg:flex-wrap">
-          <Portfolio img={web1}/>
-          <Portfolio img={web2}/>
-          <Portfolio img={web3}/>
-          <Portfolio img={web3}/>
-          <Portfolio img={web5}/>
-          <Portfolio img={web5}/>
+          
+          <Portfolio lnk="https://www.apebeverages.com/" img={web5} txt="Website Project Title"/>
+          <Portfolio lnk="https://www.beware.net/" img={web2} txt="Website Project Title"/>
+          <Portfolio lnk="https://www.clonnabis.com/" img={web3} txt="Website Project Title"/>
+          <Portfolio lnk="https://cozieswimwear.com.au/" img={web4} txt="Website Project Title"/>
+          <Portfolio lnk="https://kerry.f8projects.com.au" img={web1} txt="Website Project Title"/>
+          <Portfolio lnk="https://www.pcnstrategies.com/" img={web6} txt="Website Project Title"/>
         </section>
 
         <section className="bg-[#101010] md:h-[171.2px] md:px-[17%] px-[5%] py-5 flex items-center justify-start" >

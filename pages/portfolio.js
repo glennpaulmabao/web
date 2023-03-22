@@ -7,7 +7,8 @@ import Image from "next/image";
 function Portfolio(props){
     return(
     <div className="basis-1/3 flex-1 md:mt-[20px] pt-[30px] my-2">
-        <div>
+        <div className="text-white hover:text-[#D4FF3F]">
+            <a href={props.lnk} target="_blank">
             <Image
             src={props.img}
             className="object-cover"
@@ -15,7 +16,8 @@ function Portfolio(props){
             height={"560.3px"}
             layout="responsive"
             alt="Website"
-             />        
+             />
+             <h1 className="mt-5 text-2xl font-extrabold uppercase">{props.txt}</h1></a>        
         </div>
     </div>
     )
