@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <section className=" bg-[#D4FF3F] w-full min-h-screen md:px-[17%] px-[5%]">
+        <section className=" bg-[#D4FF3F] w-full min-h-screen md:px-[10%] px-[5%]">
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
             <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
@@ -42,7 +42,7 @@ export default function Home() {
               <h1 className="md:text-[180px] text-[80px] leading-[85%] md:my-10 my-[5px] font-black">ABOUT GLENN</h1>
             </div>
             <div className="md:w-[40%] w-[100%] flex flex-wrap ">
-              <div className="md:flex items-center md:order-first order-last bg-[url('../public/Me_BG.png')] gap-5 md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light">
+              <div className="md:flex items-center md:order-first order-last bg-no-repeat bg-cover bg-[url('../public/Me_BG.png')] gap-5 md:w-[100%] md:visible hidden w-[70%] md:h-[128px] h-[72px] my-7 md:mb-[40px] rounded-full font-light">
                 <Image src={darkmode} className="h-[80%] w-auto mx-5 " />
                 
               </div>
@@ -83,7 +83,7 @@ export default function Home() {
                 <Image src={talk2me} className="h-[85.9px] w-auto mx-2" />
               </a>
             </div>
-            <div className="bg-[#4E5732] md:h-[650px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
+            <div className="bg-[#4E5732] md:h-[750px] h-[375px] w-[100%] md:rounded-t-[120px] rounded-t-[30px] z-[1] mt-[-130px] relative overflow-hidden">
               <a href="https://www.apebeverages.com/" target="_blank" ><Image src={web5} layout="fill" objectFit="cover"/></a>
             </div>
           </div>
