@@ -106,12 +106,12 @@ export default function Home() {
         </section>
         <section className="bg-[#171717] md:px-[17%] px-[5%] flex flex-col gap-10 md:py-[120px] py-[40px] lg:flex-row lg:flex-wrap">
           
-          <Portfolio lnk="https://www.apebeverages.com/" img={web5} txt="Website Project Title"/>
-          <Portfolio lnk="https://www.beware.net/" img={web2} txt="Website Project Title"/>
-          <Portfolio lnk="https://www.clonnabis.com/" img={web3} txt="Website Project Title"/>
-          <Portfolio lnk="https://cozieswimwear.com.au/" img={web4} txt="Website Project Title"/>
-          <Portfolio lnk="https://kerry.f8projects.com.au" img={web1} txt="Website Project Title"/>
-          <Portfolio lnk="https://www.pcnstrategies.com/" img={web6} txt="Website Project Title"/>
+          <Portfolio lnk="https://www.apebeverages.com/" img={web5} txt="Ape Beverages"/>
+          <Portfolio lnk="https://www.beware.net/" img={web2} txt="Beware Events"/>
+          <Portfolio lnk="https://www.clonnabis.com/" img={web3} txt="Clonnabis"/>
+          <Portfolio lnk="https://cozieswimwear.com.au/" img={web4} txt="Cozie Swimwear Australia"/>
+          <Portfolio lnk="https://kerry.f8projects.com.au" img={web1} txt="Kerry's Korner"/>
+          <Portfolio lnk="https://www.pcnstrategies.com/" img={web6} txt="PCN Strategies"/>
         </section>
 
         <section className="bg-[#101010] md:h-[171.2px] md:px-[17%] px-[5%] py-5 flex items-center justify-start" >
