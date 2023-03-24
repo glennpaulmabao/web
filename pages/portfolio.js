@@ -11,7 +11,7 @@ function Portfolio(props){
             <a href={props.lnk} target="_blank">
             <Image
             src={props.img}
-            className="object-cover"
+            className="object-cover rounded-2xl"
             width={"627.9px"}
             height={"560.3px"}
             layout="responsive"

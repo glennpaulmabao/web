@@ -22,15 +22,16 @@ import MeBG from "../public/Me_BG.png";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Head>
         <title>Glenn Paul Mabao | Design & Develop</title>
         <meta name="description" content="I completed my Information Technology with a Java Programming degree in 2011. After college, I spent six years honing my artistic skills as a graphic illustrator, branding expert, and web designer. I've been a front-end programmer with some backend expertise since 2018." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <section className=" bg-[#D4FF3F] w-full min-h-screen md:px-[10%] px-[5%]">
+      <main className='w-[100%!important]'>
+        <div className="bg-[#D4FF3F]">
+        <section className="md:w-[1300px] md:px-2 px-[5%] mx-auto min-h-screen">
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
             <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
@@ -88,11 +89,15 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-[#0B0B0B] md:h-[171.2px] md:px-[17%] px-[5%] py-10 flex items-center justify-start" >
+        </div>
+        <div className="bg-black">
+        <section className="bg-[#0B0B0B] md:h-[171.2px] md:w-[1000px] md:px-0 mx-auto px-[5%] py-10 flex items-center justify-start" >
           <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#D4FF3F]">PORTFOLIO</h1>
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
-        <section className="bg-[#171717] md:h-[171.2px] md:px-[17%] px-[5%] py-10 justify-start">
+        </div>
+        <div className="bg-[#171717]">
+        <section className="mx-auto md:h-[171.2px] md:px-0 md:w-[1000px] px-[5%] py-10 justify-start">
           <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3] hover:text-[#D4FF3F]">BEST PROJECTS</h1>
           <p className="leading-[22pt] font-[300] my-10 md:my-5 text-[#898989] md:w-[60%] w-full">
           Everyone of us loves something different. So, explore the world through the lens of our visual capabilities and find what you love.
@@ -104,7 +109,7 @@ export default function Home() {
                 <h4 className=" hover:border-[#D4FF3F] hover:text-[#D4FF3F] border-[#898989] text-[#898989] font-regular py-[4px] px-[12px] border-2 md:my-2 mt-2 rounded-full items-center">ReactJS</h4>
             </div>
         </section>
-        <section className="bg-[#171717] md:px-[17%] px-[5%] flex flex-col gap-10 md:py-[120px] py-[40px] lg:flex-row lg:flex-wrap">
+        <section className="md:px-0 px-[5%] mx-auto md:w-[1000px] flex flex-col gap-10 md:py-[120px] py-[40px] lg:flex-row lg:flex-wrap">
           
           <Portfolio lnk="https://www.apebeverages.com/" img={web5} txt="Ape Beverages"/>
           <Portfolio lnk="https://www.beware.net/" img={web2} txt="Beware Events"/>
@@ -119,6 +124,7 @@ export default function Home() {
           <Image src={chimes} className="md:h-[92px] h-[55px] w-auto ml-10"/>
         </section>
 
+        </div>
       </main>
 
     </div>
