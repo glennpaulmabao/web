@@ -90,8 +90,8 @@ export default function Home() {
           </div>
         </section>
         </div>
-        <div className="bg-black">
-        <section className="bg-[#0B0B0B] md:h-[171.2px] md:w-[1000px] md:px-0 mx-auto px-[5%] py-10 flex items-center justify-start" >
+        <div className="bg-[#0B0B0B]">
+        <section className=" md:h-[171.2px] md:w-[1000px] md:px-0 mx-auto px-[5%] py-10 flex items-center justify-start" >
           <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#D4FF3F]">PORTFOLIO</h1>
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
