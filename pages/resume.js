@@ -1,19 +1,20 @@
-import Head from 'next/head';
-import react from 'react';
-import ReactDOM from "react-dom"
+import React, {useState} from 'react'
+import { Document,Page, pdfjs } from 'react-pdf';
 
-function Resume(){
-    return(
-    <div className="">
-        <div className='border-r-2'>
-            <h1 className='text-black'>Glenn Paul Valle Mabao</h1>
-        </div>
-        <div>
-            
-        </div>
-    </div>
-    )
-}
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
+function resume() {
+    return (
+      <div className='h-[100vh]'>
+        <center>
+        <Document className="justify-center mx-auto my-0 justify-items-center"
+          file="/Glenn-Paul-Mabao-2023-Resume.pdf"
+        >
+          <Page pageNumber={1} height="1920" />
+        </Document>
+        </center>
+      </div>
+    );
+  }
 
-export default Resume;
+export default resume;
