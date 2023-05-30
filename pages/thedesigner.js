@@ -83,14 +83,14 @@ function designs() {
             className="absolute top-0 left-0 w-full h-auto bg-gray-900 opacity-40"
             onClick={handleClose}
           ></div>
-          <div className="z-10 justify-center mx-auto bg-white rounded-lg h-auto w-[70%] shadow-lg justify-items-center">
+          <div className="z-10 justify-center mx-auto rounded-lg min-h-auto w-[90%] md:w-[70%] shadow-lg justify-items-center">
             <Image
               src={images[selectedImageIndex].default}
               alt="gallery"
-              className="w-auto h-full rounded-lg shadow-md"
+              className="w-auto h-auto rounded-lg shadow-md"
             />
             <button
-              className="absolute px-2 py-1 text-[#D4FF3F] bg-gray-800 rounded-md top-2 right-2"
+              className="absolute px-2 py-1 text-[#D4FF3F] rounded-md top-2 right-2"
               onClick={handleClose}
             >
               Close
