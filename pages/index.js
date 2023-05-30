@@ -33,7 +33,7 @@ export default function Home() {
         <div className="bg-[#D4FF3F]">
         <section className="md:w-[1300px] md:px-2 px-[5%] mx-auto min-h-screen">
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
-            <h1 className="font-extrabold"><a target="_blank" href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
+            <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
               <li><a href="resume" target="_blank">Resume</a></li>
             </ul>
