@@ -5,10 +5,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 
 function resume() {
     return (
-      <div className='h-[100vh]'>
+      <div className="bg-[#D4FF3F] h-full p-0 m-0">
         <center>
-        <Document className="justify-center mx-auto my-0 justify-items-center"
-          file="/Glenn-Paul-Mabao-2023-Resume.pdf"
+        <Document 
+          file="../Glenn-Paul-Mabao-2023-Resume.pdf"
         >
           <Page pageNumber={1} height="1920" />
         </Document>
