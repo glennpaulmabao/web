@@ -69,9 +69,9 @@ export default function Home() {
             </div>
             <div className="hidden md:w-[50%] md:flex items-center justify-end gap-3 text-5xl">
               <Image src={hrdot}/>
-              <a href="https://twitter.com/glennfalse"><Image src={twitter} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
-              <a href="https://www.instagram.com/glennfalse/"><Image src={instagram} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
-              <a href="https://www.linkedin.com/in/glennpaulmabao/"><Image src={linkedin} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a target="_blank" href="https://twitter.com/glennfalse"><Image src={twitter} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a target="_blank" href="https://www.instagram.com/glennfalse/"><Image src={instagram} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/glennpaulmabao/"><Image src={linkedin} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
             </div>
           </div>
           <div className="md:mt-[20px] mt-[150px] flex flex-wrap justify-end">
