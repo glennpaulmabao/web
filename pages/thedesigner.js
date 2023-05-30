@@ -13,7 +13,7 @@ function designs() {
       return r.keys().map(r);
     };
     const images = importAll(
-      require.context("../public/Projects/Websites", false, /\.(png|jpe?g|svg)$/)
+      require.context("../public/Projects/Graphics", false, /\.(png|jpe?g|svg)$/)
     );
     setImages(images);
   }, []);
@@ -60,7 +60,7 @@ function designs() {
       </section>
       <div className="bg-[#0B0B0B]">
         <section className=" md:h-[171.2px] md:w-[1300px] md:px-0 mx-auto px-[5%] py-10 flex items-center justify-start" >
-          <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#D4FF3F]">Glenn The Designer</h1>
+          <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#D4FF3F] uppercase">The Designer</h1>
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
         </div>
@@ -90,19 +90,19 @@ function designs() {
               className="w-auto h-full rounded-lg shadow-md"
             />
             <button
-              className="absolute px-2 py-1 text-white bg-gray-800 rounded-md top-2 right-2"
+              className="absolute px-2 py-1 text-[#D4FF3F] bg-gray-800 rounded-md top-2 right-2"
               onClick={handleClose}
             >
               Close
             </button>
             <button
-              className="absolute px-2 py-1 text-white transform -translate-y-1/2 bg-gray-800 rounded-md top-1/2 left-2"
+              className="absolute px-2 py-1 text-white transform -translate-y-1/2 bg-gray-800 rounded-md top-1/2 left-20"
               onClick={handlePrev}
             >
               Prev
             </button>
             <button
-              className="absolute px-2 py-1 text-white transform -translate-y-1/2 bg-gray-800 rounded-md top-1/2 right-2"
+              className="absolute px-2 py-1 text-white transform -translate-y-1/2 bg-gray-800 rounded-md top-1/2 right-20"
               onClick={handleNext}
             >
               Next
