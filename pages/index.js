@@ -64,11 +64,11 @@ export default function Home() {
             <div className="md:w-[50%] w-[100%] flex items-start md:gap-5 gap-2">
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={design} className="md:h-[30px] h-[20px] w-auto"/>
-                <p className="text-[16px]">The Designer</p>
+                <p className="text-[16px]"><a href="thedesigner">The Designer</a></p>
               </div>
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={develop} className="md:h-[30px] h-[20px] w-auto"/>
-                <p className="text-[16px]">The Programmer</p>
+                <p className="text-[16px]"><a href="#websites">The Programmer</a></p>
               </div>
             </div>
             <div className="hidden md:w-[50%] md:flex items-center justify-end gap-3 text-5xl">
@@ -97,7 +97,7 @@ export default function Home() {
         </section>
         </div>
         <div className="bg-[#171717]">
-        <section className="mx-auto md:h-[171.2px] md:px-0 md:w-[1000px] px-[5%] py-10 justify-start">
+        <section ID="websites" className="mx-auto md:h-[171.2px] md:px-0 md:w-[1000px] px-[5%] py-10 justify-start">
           <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3] hover:text-[#D4FF3F]">BEST PROJECTS</h1>
           <p className="leading-[22pt] font-[300] my-10 md:my-5 text-[#898989] md:w-[60%] w-full">
           Everyone of us loves something different. So, explore the world through the lens of our visual capabilities and find what you love.
