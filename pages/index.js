@@ -48,11 +48,7 @@ export default function Home() {
                 
               </div>
               <p className="leading-[22pt] font-[300] my-10 md:my-0">
-                  I completed my Information Technology with a Java
-                  Programming degree in 2011. After college, I spent six years
-                  honing my artistic skills as a graphic illustrator, branding expert,
-                  and web designer. I've been a front-end programmer with some
-                  backend expertise since 2018.
+              As an Information Technology graduate with a major in Java programming language and experience as a web developer since 2013, I have the technical skills to develop and maintain complex web applications. My graphic design skills also allow me to create visually appealing and user-friendly interfaces. I am confident that my combination of technical expertise and design abilities make me a valuable asset to any team.
               </p>
               <a className="flex justify-center px-[10%] mx-auto items-center gap-5 bg-[#000] md:hidden visible w-[100%] h-[72px] rounded-full font-light cursor-pointer" href="mailto:glennpaulmabao@yahoo.com.ph">
               <h1 className="text-2xl text-[#D4FF3F]">Let's Talk</h1>
