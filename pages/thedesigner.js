@@ -45,7 +45,7 @@ function designs() {
     <Head>
       <title>Glenn Paul Mabao | The Designer</title>
       <meta name="description" content="I completed my Information Technology with a Java Programming degree in 2011. After college, I spent six years honing my artistic skills as a graphic illustrator, branding expert, and web designer. I've been a front-end programmer with some backend expertise since 2018." />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/MCSGlennLogo.png" />
     </Head>
 
     <main className='w-[100%!important]'>
