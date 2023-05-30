@@ -1,18 +1,13 @@
-import React, {useState} from 'react'
-import { Document,Page, pdfjs } from 'react-pdf';
+import React from 'react';
+import Image from 'next/image';
+import thisresume from "../public/Glenn-Paul-Mabao-2023-Resume.jpg";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 function resume() {
     return (
-      <div className="bg-[#D4FF3F] h-full p-0 m-0">
-        <center>
-        <Document 
-          file="../Glenn-Paul-Mabao-2023-Resume.pdf"
-        >
-          <Page pageNumber={1} height="1920" />
-        </Document>
-        </center>
+      <div className="bg-[#EFF5D5] min-h-full p-5 m-0">
+        <a href="../Glenn-Paul-Mabao-2023-Resume.pdf" download className="bg-[#D5FF3F] py-3 px-10 rounded-3xl mt-10 absolute" >Download a Copy</a>
+        <Image alt="Resume" width="auto" height="auto" src={thisresume} className="h-[100%] w-[100%] md:w-[70%] md:h-auto mx-auto rounded-xl" />
       </div>
     );
   }

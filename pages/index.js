@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import react from 'react';
+import React from 'react';
 import ReactDOM from "react-dom"
 import Portfolio from './portfolio';
 import Image from "next/image";
