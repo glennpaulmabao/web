@@ -35,7 +35,7 @@ export default function Home() {
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
             <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
-              <li><a href="resume" target="_blank">Resume</a></li>
+              <li><a href="./resume" target="_blank">Resume</a></li>
             </ul>
           </nav>
           <div className="items-start justify-between md:flex">
@@ -60,7 +60,7 @@ export default function Home() {
             <div className="md:w-[50%] w-[100%] flex items-start md:gap-5 gap-2">
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={design} className="md:h-[30px] h-[20px] w-auto"/>
-                <p className="text-[16px]"><a href="thedesigner">The Designer</a></p>
+                <p className="text-[16px]"><a href="./thedesigner">The Designer</a></p>
               </div>
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={develop} className="md:h-[30px] h-[20px] w-auto"/>
