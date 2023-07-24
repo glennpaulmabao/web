@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <div className="bg-[#171717]">
         <section ID="websites" className="mx-auto md:h-[171.2px] md:px-0 md:w-[1000px] px-[5%] py-10 justify-start">
-          <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3] hover:text-[#D4FF3F]">BEST PROJECTS</h1>
+          <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3] hover:text-[#D4FF3F]">BEST of Glenns PROJECTS</h1>
           <p className="leading-[22pt] font-[300] my-10 md:my-5 text-[#898989] md:w-[60%] w-full">
           Everyone of us loves something different. So, explore the world through the lens of our visual capabilities and find what you love.
               </p>
