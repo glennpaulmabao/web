@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import react from 'react';
+import React from 'react';
 import ReactDOM from "react-dom"
 import Portfolio from './portfolio';
 import Image from "next/image";
@@ -26,7 +26,7 @@ export default function Home() {
       <Head>
         <title>Glenn Paul Mabao | Design & Develop</title>
         <meta name="description" content="I completed my Information Technology with a Java Programming degree in 2011. After college, I spent six years honing my artistic skills as a graphic illustrator, branding expert, and web designer. I've been a front-end programmer with some backend expertise since 2018." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/MCSGlennLogo.png" />
       </Head>
 
       <main className='w-[100%!important]'>
@@ -35,7 +35,7 @@ export default function Home() {
           <nav className="flex md:py-10 py-5 mx-auto md:mb-[28px] mb-10 justify-between">
             <h1 className="font-extrabold"><a href="https://glennpaulmabao.github.io/web/">Glenn Paul Mabao</a></h1>
             <ul>
-              <li><a href="https://www.onlinejobs.ph/jobseekers/info/88429" target="_blank">Resume</a></li>
+              <li><a href="./resume" target="_blank">Resume</a></li>
             </ul>
           </nav>
           <div className="items-start justify-between md:flex">
@@ -48,11 +48,7 @@ export default function Home() {
                 
               </div>
               <p className="leading-[22pt] font-[300] my-10 md:my-0">
-                  I completed my Information Technology with a Java
-                  Programming degree in 2011. After college, I spent six years
-                  honing my artistic skills as a graphic illustrator, branding expert,
-                  and web designer. I've been a front-end programmer with some
-                  backend expertise since 2018.
+              As an Information Technology graduate with a major in Java programming language and experience as a web developer since 2013, I have the technical skills to develop and maintain complex web applications. My graphic design skills also allow me to create visually appealing and user-friendly interfaces. I am confident that my combination of technical expertise and design abilities make me a valuable asset to any team.
               </p>
               <a className="flex justify-center px-[10%] mx-auto items-center gap-5 bg-[#000] md:hidden visible w-[100%] h-[72px] rounded-full font-light cursor-pointer" href="mailto:glennpaulmabao@yahoo.com.ph">
               <h1 className="text-2xl text-[#D4FF3F]">Let's Talk</h1>
@@ -64,18 +60,18 @@ export default function Home() {
             <div className="md:w-[50%] w-[100%] flex items-start md:gap-5 gap-2">
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={design} className="md:h-[30px] h-[20px] w-auto"/>
-                <p className="text-[16px]">The Designer</p>
+                <p className="text-[16px]"><a href="./thedesigner">The Designer</a></p>
               </div>
               <div className="flex items-center md:gap-5 gap-2 md:border-[#4E5732] md:px-5 md:border-2 md:w-[38%] w-[100%] h-[50px] rounded-full font-light cursor-pointer">
                 <Image src={develop} className="md:h-[30px] h-[20px] w-auto"/>
-                <p className="text-[16px]">The Programmer</p>
+                <p className="text-[16px]"><a href="#websites">The Programmer</a></p>
               </div>
             </div>
             <div className="hidden md:w-[50%] md:flex items-center justify-end gap-3 text-5xl">
               <Image src={hrdot}/>
-              <a href="https://twitter.com/glennfalse"><Image src={twitter} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
-              <a href="https://www.instagram.com/glennfalse/"><Image src={instagram} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
-              <a href="https://www.linkedin.com/in/glennpaulmabao/"><Image src={linkedin} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a target="_blank" href="https://twitter.com/glennfalse"><Image src={twitter} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a target="_blank" href="https://www.instagram.com/glennfalse/"><Image src={instagram} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/glennpaulmabao/"><Image src={linkedin} className="cursor-pointer h-[37.1px] w-auto mx-2" /></a>
             </div>
           </div>
           <div className="md:mt-[20px] mt-[150px] flex flex-wrap justify-end">
@@ -97,7 +93,7 @@ export default function Home() {
         </section>
         </div>
         <div className="bg-[#171717]">
-        <section className="mx-auto md:h-[171.2px] md:px-0 md:w-[1000px] px-[5%] py-10 justify-start">
+        <section ID="websites" className="mx-auto md:h-[171.2px] md:px-0 md:w-[1000px] px-[5%] py-10 justify-start">
           <h1 className="md:text-[50px] md:mt-10 text-[35px] font-extrabold text-[#C3C3C3] hover:text-[#D4FF3F]">BEST PROJECTS</h1>
           <p className="leading-[22pt] font-[300] my-10 md:my-5 text-[#898989] md:w-[60%] w-full">
           Everyone of us loves something different. So, explore the world through the lens of our visual capabilities and find what you love.
