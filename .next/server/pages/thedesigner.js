@@ -155,17 +155,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./public/Projects/Graphics/GFX_09.png":
-/*!*********************************************!*\
-  !*** ./public/Projects/Graphics/GFX_09.png ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/GFX_09.c72f1cf4.png\",\"height\":1243,\"width\":1766,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGFX_09.c72f1cf4.png&w=8&q=70\",\"blurWidth\":8,\"blurHeight\":6});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvUHJvamVjdHMvR3JhcGhpY3MvR0ZYXzA5LnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxrTUFBa00iLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teXBvcnRmb2xpby1yZWFjdC13aXRoLXRhaWx3aW5kY3NzLy4vcHVibGljL1Byb2plY3RzL0dyYXBoaWNzL0dGWF8wOS5wbmc/ZmY5YiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvR0ZYXzA5LmM3MmYxY2Y0LnBuZ1wiLFwiaGVpZ2h0XCI6MTI0MyxcIndpZHRoXCI6MTc2NixcImJsdXJEYXRhVVJMXCI6XCIvX25leHQvaW1hZ2U/dXJsPSUyRl9uZXh0JTJGc3RhdGljJTJGbWVkaWElMkZHRlhfMDkuYzcyZjFjZjQucG5nJnc9OCZxPTcwXCIsXCJibHVyV2lkdGhcIjo4LFwiYmx1ckhlaWdodFwiOjZ9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/Projects/Graphics/GFX_09.png\n");
-
-/***/ }),
-
 /***/ "./public/Projects/Graphics/UXUIDesignMockup_VivaiiaApp.jpg":
 /*!******************************************************************!*\
   !*** ./public/Projects/Graphics/UXUIDesignMockup_VivaiiaApp.jpg ***!
@@ -280,7 +269,6 @@ var map = {
 	"./GFX_07.jpg": "./public/Projects/Graphics/GFX_07.jpg",
 	"./GFX_08.jpg": "./public/Projects/Graphics/GFX_08.jpg",
 	"./GFX_09.jpg": "./public/Projects/Graphics/GFX_09.jpg",
-	"./GFX_09.png": "./public/Projects/Graphics/GFX_09.png",
 	"./UXUIDesignMockup_VivaiiaApp.jpg": "./public/Projects/Graphics/UXUIDesignMockup_VivaiiaApp.jpg",
 	"./VivaiiaAppPortal.jpg": "./public/Projects/Graphics/VivaiiaAppPortal.jpg",
 	"./VivaiiaMobileWebDesign.jpg": "./public/Projects/Graphics/VivaiiaMobileWebDesign.jpg",
