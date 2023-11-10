@@ -60,7 +60,7 @@ function designs() {
       </section>
       <div className="bg-[#0B0B0B]">
         <section className=" md:h-[171.2px] md:w-[1300px] md:px-0 mx-auto px-[5%] py-10 flex items-center justify-start" >
-          <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#D4FF3F] uppercase">The Designer</h1>
+          <h1 className="md:text-[50px] text-[35px] font-extrabold text-[#D4FF3F] uppercase">I'm Designer</h1>
           <Image src={chimes} className="md:h-[92px] h-[48px] w-auto ml-10"/>
         </section>
         </div>
